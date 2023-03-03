@@ -24,15 +24,16 @@
       color: #fff;
   }
   #menu-dashboard li {
-      border-radius: 0;
+      border-radius:0;
       margin: 0;
-      padding: 0;
+      padding: 10px 0px;
      
   }
+
   #menu-dashboard li > a {
-      border-radius: 0;
+      border-radius: 12px;
       padding: 10px;
-      color: #444;
+      color: #000000;
   }
   #menu-dashboard > li > a:hover,
   #menu-dashboard > li > a:focus {
@@ -99,18 +100,18 @@ p {
 }
 .cuenta{
     display: inline-block;
-    width: 50%;
+    width: 30%;
 }
 .avatar{
     display: flex;
     justify-content: center;
     float: left;
-    width: 50%;
+    width: 45%;
 }
 .datospersonales{
     padding: 10px 0px;
     float: left;
-    width: 50%;
+    width: 55%;
     height: 100px;
 }
 h4{
@@ -120,6 +121,17 @@ h4{
     font-size: 12px;
 }
 .btn{
+    border: none;
+    background: none;
+}
+.btnn{
+    border: none;
+    background: none;
+}
+a{
+    padding: 7px;
+}
+.btn>a {
     background-image: linear-gradient(135deg,#000,#000 30%,#a18d57 60%,#f8e7aa);
     background-size: 300% auto;
     border: none;
@@ -132,27 +144,52 @@ h4{
     text-align: center;
     text-decoration: none;
     transition: color .4s,background-image .4s,background-position .4s;
-    width: 200px;
+    width: 190px;
 }
-.btn:hover:not(:disabled) {
+.btn >a:hover:not(:disabled) {
     background-position: 100%;
     color: #000;}
 
-.btn1{
-    background-image: linear-gradient(135deg,#000,#000 30%,#a18d57 60%,#f8e7aa);
-    background-size: 300% auto;
-    border: none;
-    border-radius: 7px;
-    color: #fff;
-    cursor: pointer;
-    display: block;
-    font-size: 15px;
-    height: 40px;
-    text-align: center;
-    text-decoration: none;
-    transition: color .4s,background-image .4s,background-position .4s;
-    width: 300px;
-}
- .btn1:hover:not(:disabled) {
+    .btnn>a {
+        background-image: linear-gradient(135deg,#000,#000 30%,#a18d57 60%,#f8e7aa);
+        background-size: 300% auto;
+        border: none;
+        border-radius: 7px;
+        color: #fff;
+        cursor: pointer;
+        display: block;
+        font-size: 15px;
+        height: 40px;
+        text-align: center;
+        text-decoration: none;
+        transition: color .4s,background-image .4s,background-position .4s;
+        width: 270px;
+    }
+    .btnn >a:hover:not(:disabled) {
         background-position: 100%;
-        color: #000;}   
+        color: #000;}
+
+.con{
+     display: inline-block;
+     width: 100%;
+     padding: 20px 0px;
+          }
+.accesos {
+      display: inline-block;
+      width: 60%;
+        }
+ .col-md-7 {
+            width: 75%;
+            padding: 40px 0px;
+        }       
+
+.fatn{ 
+    float: left;
+    width: 55%;
+    height: 100px;
+    padding: 68.5px 40px ;
+} 
+.btns{
+padding: 10px 0px;
+}
+
