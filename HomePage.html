@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <link href="js/bootstrap.min.js">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="js/funciones.js">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="container-sm">
+        <div class="row">
+            <!--contenedor del menú de la parte izquierda-->
+            <div class="col-12 col-md-2" >
+                <div class="cont-img-logo">
+                    <img class="img-logo-selfish" src="../paginas/img/logo-selfish.jpg"><!--Icon selfish-->
+                </div>
+                <div id="contenedor-btn-nav" class="d-grid gap-2">
+                    <button type="button"  class="btn btn-outline-dark nav-btn" ><i class="fa fa-home "></i>Inicio</button>
+                    <button type="button"  class="btn btn-outline-dark nav-btn"><i class="fa fa-bell " ></i></i>Notificaciones</button>
+                    <button type="button"  class="btn btn-outline-dark nav-btn"><i class="fa fa-user " ></i>Clientes</button>
+                    <button  id="btnDesplegar" class="btn btn-outline-dark btndesplegar"><i class="fa fa-list " ></i><a href="proyectos.html"></a>Proyectos</button>
+                    <ul id="listaDesplegable" class="oculto">
+                    <li class="list-group-item"><a href="">Proyecto 1</a> </li>
+                    <li class="list-group-item"><a href="#">Proyecto 2</a></li>
+                    <li class="list-group-item"><a href="#">Proyecto 3</a></li>
+                    <li class="list-group-item"><a href="#">Proyecto 4</a></li>
+                    <li class="list-group-item"><a href="#">Proyecto 5</a></li>
+                    <li class="list-group-item"><a href="#">Proyecto 6</a></li>
+                    <li class="list-group-item"><a href="#">Proyecto 7</a></li>
+                    <li class="list-group-item"><a href="#">Proyecto 8</a></li>
+                    </ul>
+                </div>
+            </div>      
+            <!--contenedor del menú principal de la parte derecha-->
+            <div class="col-12 col-md-8">
+                   <h1 class="encabezado-principal">
+                    Proyectos
+                   </h1>
+                   <p class="lab-frase">
+                    "La imaginación es el principio de la creación."
+                   </p>
+                <div>
+                   <h2 class="title-cont-tareas">
+                    Lista de tareas
+                   </h2>
+                   <table class="table table-striped tabla-clickup">
+                   <tr>
+                   <td id="index">HOMEWORK</td>
+                   <td id="letra">UPDATE</td>
+                   <td id="alicuota">DUE DATE</td>
+                   <td id="periodo">PRIORITY</td>
+                   <td id="estado">ASSIGNEE</td>
+                   </tr>
+                   </table>
+                  <div id="elemento"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

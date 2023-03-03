@@ -1,0 +1,99 @@
+/******************************PAGINA HOME******************************/
+/*********************Modifica el contenedor********************/
+.container-sm{
+    padding-top: 60px;
+}
+/*********************Modifica el contenedor primario********************/
+.encabezado-principal{
+    font-family: Poppins,sans-serif;
+    font-size: 48px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #000;
+}
+.title-cont-tareas{
+    text-align: center;
+    padding-top: 80px;
+    font-family: Poppins,sans-serif;
+    font-size: 35px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.lab-frase{
+    font-family: Poppins,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+/*********************Modifica el logo********************/
+
+.img-logo-selfish{
+    padding-left: 10px;
+    height: 120px;
+    width: 100px;
+}
+
+/*********************Modifica el contenerdo de los botones del menu de home, notificaciones, cliente, proyectos********************/
+#contenedor-btn-nav{
+padding-top: 70px;
+}
+/*********************Modifica los iconos de los botones de home, notificaciones, cliente, proyectos********************/
+i.fa{
+    color: black;
+    padding-right: 10px;
+}
+
+i.fa:hover, button{
+    color:#ffffff ;
+  }
+/*********************Con este se modifica los botones de home, notificaciones, cliente, proyecto*********************/
+.nav-btn, .btndesplegar{
+    height: 40px;
+    width: 150px;
+    text-align: left;
+    border: none;
+}
+/*********************Con este se modifica la lista desplegable*********************/
+.oculto li a{
+    color: black;
+    text-decoration: none;
+}
+/*********************Modifica la tabla clickup***********************/
+.tabla-clickup{
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+
+
+/******************************PROYTECTOS******************************/
+.title-cont-nombre{
+    padding-left: 150px;
+    padding-top: 110px;
+    font-family: Poppins,sans-serif;
+    font-size: 35px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    color: #000;
+}   
+.container-buscador, .container-btn-cambios{
+    float: right;
+}
+#buscador{
+    display: none;
+}
+.mostrar{
+    width: 150px;
+    position: relative;
+    bottom: 40px;
+}
+
+.btn-cambios{
+    position: relative;
+    left: 150px;
+    top: 260px;
+    width: 150px;
+}

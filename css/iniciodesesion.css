@@ -1,0 +1,142 @@
+.card {
+    background-color: #fff;
+    border-radius: 13px;
+    box-shadow: 0 0 30px 0 #00000040;
+    height: 70%;
+    max-height: 550px;
+    max-width: 1240px;
+    min-height: 500px;
+    width: 90%;
+    display: inline-block;
+    border: 1px solid #ddd;
+    align-items: center;
+    align-content: center;
+}
+
+  .image {
+    display: flex;
+    justify-content: center;
+    float: left;
+    width: 50%;
+    height: 550px;
+    border-right: 1px solid #ccc;
+    background-image: url('../img/Flama-Selfish.png');
+    background-position: 50%;
+    background-repeat: no-repeat
+  }
+
+  .content {
+    float: left;
+    height: 550px;
+    width: 50%;
+    overflow: hidden;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 60px;
+}
+
+  .content h4 {
+    margin: 5px 0;
+  }
+ .img-inicio {
+    width: 100%;
+  }
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+h1 {
+    color: #000;
+    font-family: Playfair Display,serif;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 22px 0;
+}
+h3,h2 {
+    color: #999;
+    font-family: Poppins,sans-serif;
+    letter-spacing: 1px;
+}
+h3 {
+font-size: 18px;
+font-weight: 700;
+margin: 20px 0;
+}
+h2{
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 18px 0;
+}
+.img-logo{
+  width: 30%;
+  
+ 
+}
+.btn{
+    background-image: linear-gradient(135deg,#000,#000 30%,#a18d57 60%,#f8e7aa);
+    background-size: 300% auto;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 15px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    transition: color .4s,background-image .4s,background-position .4s;
+    width: 200px;
+}
+.btn:hover:not(:disabled) {
+    background-position: 100%;
+    color: #000;
+}
+img.img-inicio:hover {
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+}
+
+.form-control{
+    border: none;
+    color: #999;
+    font-size: 16px;
+    height: calc(100% - 2px);
+    outline: none;
+    padding: 6px 10px;
+    width: 100%;
+    
+}
+.contenedor {
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+}
+
+.img-fomulario {
+  display: flex;
+  justify-content: center;
+}
+.form-control {
+  margin-bottom: 20px;
+  width: 100%;
+}
+label {
+  color: #000;
+  font-family: Poppins,sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.label.span {
+  background-image: linear-gradient(135deg,#000,#000 30%,#a18d57 60%,#f8e7aa);
+  background-size: 300% auto;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  position: relative;
+  transition: background-image .4s,background-position .4s;
+  width: 100%;
+}
+
