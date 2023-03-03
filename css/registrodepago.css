@@ -193,3 +193,19 @@ a{
 padding: 10px 0px;
 }
 
+.fechahoy{
+    padding: 20px 0px 0px 38px;
+    float: right;
+    width: 30%;
+    height: 100px;
+    }
+.misdatos{
+        display: inline-block;
+    width: 70%
+        } ;
+.cabecera{
+        display: inline-block;
+    width: 100%;
+} ;
+    
+
