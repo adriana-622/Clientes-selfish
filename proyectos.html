@@ -17,22 +17,21 @@
             <!--contenedor del menú de la parte izquierda-->
             <div class="col-12 col-md-2" >
                 <div class="cont-img-logo">
-                      <img class="img-logo-selfish" src="../paginas/img/logo-selfish.jpg"><!--Icon selfish-->
+                      <img class="img-logo-selfish" src="img/logo-selfish.jpg"><!--Icon selfish-->
                 </div>
                 <div id="contenedor-btn-nav" class="d-grid gap-2">
-                     <button type="button"  class="btn btn-outline-dark nav-btn" ><i class="fa fa-home "></i>Inicio</button>
-                     <button type="button"  class="btn btn-outline-dark nav-btn"><i class="fa fa-bell " ></i></i>Notificaciones</button>
-                     <button type="button"  class="btn btn-outline-dark nav-btn"><i class="fa fa-user " ></i>Clientes</button>
-                     <button id="btnDesplegar" class="btn btn-outline-dark btndesplegar"><i class="fa fa-list " ></i>Proyectos</button>
+                    <a type="button" href="HomePage.html"  class="btn btn-outline-dark nav-btn " ><i class="fa fa-home"></i>Inicio</a>
+                    <a type="button"  class="btn btn-outline-dark nav-btn "><i class="fa fa-bell " ></i></i>Notificaciones</a>
+                    <a type="button"  class="btn btn-outline-dark nav-btn"><i class="fa fa-user " ></i>Clientes</a>
+                    <a  id="btnDesplegar" class="btn btn-outline-dark btndesplegar active"><i class="fa fa-list " ></i>Proyectos</a>
                      <ul id="listaDesplegable" class="oculto">
-                     <li class="list-group-item"><a href="https://intranet.selfish.com.mx/accesos">Proyecto 1</a> </li>
+                     <li class="list-group-item"><a href="">Proyecto 1</a> </li>
                      <li class="list-group-item"><a href="#">Proyecto 2</a></li>
                      <li class="list-group-item"><a href="#">Proyecto 3</a></li>
                      <li class="list-group-item"><a href="#">Proyecto 4</a></li>
                      <li class="list-group-item"><a href="#">Proyecto 5</a></li>
                      <li class="list-group-item"><a href="#">Proyecto 6</a></li>
                      <li class="list-group-item"><a href="#">Proyecto 7</a></li>
-                     <li class="list-group-item"><a href="#">Proyecto 8</a></li>
                      </ul>
                 </div>
             </div>      
@@ -48,14 +47,17 @@
                         <h2 class="title-cont-nombre">
                             Nombre
                         </h2>
-                        <div class="datos-de-proyecto">
-                            <img src="">
+                        <div class="d-grid gap-2 container-buscador">
+                            <input id="buscador" type="text" name="query" placeholder="Buscar...">
+                            <button  class="btn btn-dark mostrar" type="button" value="Buscar">Buscar</button>
+                            <button  class="btn btn-dark mostrar" type="button" value="Buscar">Nuevo proyecto</button>
                         </div>
-                    </div>
-                    <div class="d-grid gap-2 container-buscador">
-                        <input id="buscador" type="text" name="query" placeholder="Buscar...">
-                        <button  class="btn btn-dark mostrar" type="submit" value="Buscar">Buscar</button>
-                        <button  class="btn btn-dark mostrar" type="submit" value="Buscar">Nuevo proyecto</button>
+                        <div class="datos-de-proyecto">
+                            <img class="imagen-de-proyecto" src="img/images.jpg">
+                            <textarea class="desc-proyecto">Descripción general del proyecto</textarea>
+                            <p class="name-cliente">Nombre cliente: </p>
+                            <p>Tipo de proyecto:</p>
+                        </div>
                     </div>
                     <div class="container-btn-cambios">
                         <a  href="https://getbootstrap.com/docs/5.3/components/buttons/#examples" class="btn btn-dark btn-cambios" >Cambios</a>

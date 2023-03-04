@@ -6,7 +6,7 @@
 /*********************Modifica el contenedor primario********************/
 .encabezado-principal{
     font-family: Poppins,sans-serif;
-    font-size: 48px;
+    font-size: 38px;
     font-weight: lighter;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -71,7 +71,7 @@ i.fa:hover, button{
 
 /******************************PROYTECTOS******************************/
 .title-cont-nombre{
-    padding-left: 150px;
+    padding-left: 120px;
     padding-top: 110px;
     font-family: Poppins,sans-serif;
     font-size: 35px;
@@ -82,18 +82,45 @@ i.fa:hover, button{
 .container-buscador, .container-btn-cambios{
     float: right;
 }
+
+/******Modifica el input del buscador********/
 #buscador{
     display: none;
 }
+
+/****Modifica el boton de buscar****/
 .mostrar{
     width: 150px;
     position: relative;
-    bottom: 40px;
+    bottom: 50px;
+}
+/****Modifica el boton de cambios de proyecto****/
+.btn-cambios{
+    width: 150px;
+}
+/*****Modifica el contenedor de los datos de proyecto*****/
+.datos-de-proyecto{
+    position: relative;
+    left: 120px;
+}
+/*****Modifica la imagen de proyecto*****/
+.imagen-de-proyecto{
+    padding:50px 0px 10px 0px;
+    height: 200px;
+    width: auto;
 }
 
-.btn-cambios{
+/***modifica el textarea de la descripción del proyecto***/
+.desc-proyecto{
     position: relative;
-    left: 150px;
-    top: 260px;
-    width: 150px;
+    left: 40px;
+    top: 50px;
+    width: 250px;
+    height: 100px;
+    border: 1px solid  gray;
+    border-radius: 5px;
+}
+
+.btn:hover i {
+    color: white!important;
 }
