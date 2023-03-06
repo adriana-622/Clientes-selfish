@@ -1,0 +1,104 @@
+/*INICIO-ADMIN*/
+/*Modifica el contenedor principal*/
+.contenedor-principal{
+    padding-top: 40px;
+}
+/*Modifica el logo principal*/
+.logo-principal{
+    width: 100px;
+    height: auto;
+}
+.container-logo-principal{
+    text-align: center;
+}
+/*Modifica los contenedores de los botones*/
+.contenedor-botones a{
+    border: none;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Poppins,sans-serif;
+    font-weight: 400;
+}
+.contenedor-botones{
+    padding-top: 40px;
+}
+.contenedor-botones a i{
+    padding-right: 5px;
+}
+/*Modifica el titulo de pagina y subtitulo*/
+.cont-title-paginas h2{
+    font-family: Poppins,sans-serif;
+    font-size: 48px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+.cont-subtitle-pagina{
+    font-family: Poppins,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+/*Mofica el titulo de el contenido (lista de tareas)*/
+.list-tareas{
+    font-family: Playfair Display,serif;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: relative;
+    text-align: center;
+    top: 70px;
+}
+/*Modifica la tabla de la api clickup*/
+.tabla-clickup{
+    position: relative;
+    top: 110px;
+    padding: 10px;
+}
+
+/*PROYECTO-ADMIN*/
+.nombre-proyecto{
+    font-family: Playfair Display,serif;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: relative;
+    top: 110px;
+    left: 120px;
+}
+/*Modifica los botones de buscar y nuevo proyecto*/
+.btn-proyect{
+    position: relative;
+    top:100px;
+}
+/*Modifica el boton de cambios*/
+.btn-cambios-proyecto{
+    position: relative;
+    top: 400px;
+}
+/*Modifica la imagen del proyecto*/
+.container-img-proyect img{
+    height: 100px;
+    width: 90px;
+}
+.container-img-proyect{
+    position: relative;
+    left: 120px;
+    top: 120px; 
+}
+/*Modifeica el area de texto*/
+.cont-text-area{
+    position: relative;
+    float:right;
+    right: 150px;
+    top: 100px;
+}
+.cont-text-area textarea{
+    height: 150px;
+    border: 2px solid #D1DDDF;
+}
+/*Modifica los botones del modal*/
+.btn-modal-proyect{
+    width: 150px;
+}
+/*Modifica el contenedor de archivo del modal*/
+
