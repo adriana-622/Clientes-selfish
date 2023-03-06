@@ -8,18 +8,20 @@
     <link rel="stylesheet" type="text/css" href="./css/iniciodesesion.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="contenedor">
-    <div class="card">
-      <div class="image pull-left">
-        <img
-        class="img-inicio"
-        src="./img/e288be710ef58e4a2735ecd627e1f191.png"
-        alt="Card image cap"
-      />
-      </div>
-      <div class="content pull-left">
-        <div class="img-fomulario">
+    <section class="login-block">
+      <div class="container">
+        <div class="row">
+           <!-- contenedor secundario derecho -->
+          <div class="col-md-6 banner-sec">
+              <img
+                class="img-inicio"
+                src="./img/e288be710ef58e4a2735ecd627e1f191.png"
+                alt="Card image cap"
+              />
+            </div>
+         <!-- contenedor secundario izquierdo -->
+          <div class="col-md-6 login-sec">
+            <div class="img-fomulario">
               <img
                 class="img-logo"
                 src="./img/selfish-logo-6A0845C041-seeklogo.com.png"
@@ -38,33 +40,37 @@
               <div class="form-group-correo">
                 <label for="correo">CORREO</label>
                 <span>
-                <input
-                  id="correo"
-                  name="correo"
-                  class="form-control"
-                  type="email"
-                  placeholder="Correo electrónico"
-                />
-              </span>
+                  <input
+                    id="correo"
+                    name="correo"
+                    class="form-control"
+                    type="email"
+                    placeholder="Correo electrónico"
+                  />
+                </span>
               </div>
               <div class="form-group-contrasena">
                 <label for="palabraSecreta">CONTRASEÑA</label>
-              <span>
-                <input
-                  id="palabraSecreta"
-                  name="palabraSecreta"
-                  class="form-control"
-                  type="password"
-                  placeholder="Contraseña"
-                />
-              </span>
+                <span>
+                  <input
+                    id="palabraSecreta"
+                    name="palabraSecreta"
+                    class="form-control"
+                    type="password"
+                    placeholder="Contraseña"
+                  />
+                </span>
               </div>
-              <input type="submit" class="btn" value="INICIAR SESIÓN" style="margin: 0px auto;">
+              <input
+                type="submit"
+                class="btn"
+                value="INICIAR SESIÓN"
+                style="margin: 0px auto"
+              />
             </form>
+          </div>
+        </div>
       </div>
-    </div>
-    </div>
-  </div>
-
-</body>
+    </section>
+  </body>
 </html>
