@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="/css/bootstrap.min.css" rel="stylesheet" >
-    <link href="/js/bootstrap.min.js">
-    <link rel="stylesheet" href="/css/estilo-admin.css">
+    <link href="../css/bootstrap.min.css" rel="stylesheet" >
+    <link href="../js/bootstrap.min.js">
+    <link rel="stylesheet" href="../css/estilo_admin.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -18,13 +18,13 @@
       <div class="row">
          <div class="col-12 col-md-2" >
             <div class="container-logo-principal">
-               <img src="/img/logo-selfish.jpg" class="logo-principal">
+               <img src="../img/logo-selfish.jpg" class="logo-principal">
             </div>
             <div class="d-grid gap-1 contenedor-botones" role="group" aria-label="Vertical button group">
-               <a href="/Paginas/Inicio-admin.html" class="btn btn-outline-dark"><i class="fa fa-home "></i>Inicio</a>
+               <a href="../Admin/Inicio_admin.php" class="btn btn-outline-dark"><i class="fa fa-home "></i>Inicio</a>
                <a  class="btn btn-outline-dark"><i class="fa fa-bell "></i>Notificaciones</a>
                <a  class="btn btn-outline-dark"><i class="fa fa-user " ></i>Clientes</a>
-               <a href="/Paginas/Proyectos-admin.html" class="btn btn-outline-dark"><i class="fa fa-list " ></i>Proyectos</a>
+               <a href="../Admin/Proyectos_admin.php" class="btn btn-outline-dark"><i class="fa fa-list " ></i>Proyectos</a>
             </div>
          </div>
          <div class="col-12 col-md-8">
@@ -41,7 +41,7 @@
                <textarea name="" id="" cols="30" rows="10">Descripción del proyecto</textarea>
             </div>
             <div class="d-grid gap-1 container-img-proyect">
-               <img src="/img/logo-selfish.jpg">
+               <img src="../img/logo-selfish.jpg">
                <div class="datos-proyecto">
                   <p>Nombre</p>
                   <p>Tipo de proyecto</p>
@@ -61,16 +61,16 @@
          <!-- Button trigger modal -->
          <!-- Modal -->
          <div class="modal fade" id="contenedor-modal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
-               <div class="modal-header">
+               <div class="modal-header" style="text-align: center;">
                   <h1 class="modal-title fs-5" id="contenedor-modal">Agregar nuevo proyecto</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <!--<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>-->
                </div>
                <div class="modal-body">
                   <div class="row">
                      <div class="col-md-6" style="background-color: aqua;">
-                        <div class="d-grid gap-1 ">
+                        <div class="d-grid gap-1 cont-input">
                            <input type="text" placeholder="Nombre del proyecto">
                            <textarea name="" id="" cols="30" rows="10" placeholder="Descripción general del proyecto"></textarea>
                            <input type="text" placeholder="Nombre del cliente">
