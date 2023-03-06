@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>proyecto</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/iniciodesesion.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/iniciodesesion.css" />
   </head>
   <body>
     <section class="login-block">
@@ -15,7 +15,7 @@
           <div class="col-md-6 banner-sec">
               <img
                 class="img-inicio"
-                src="./img/e288be710ef58e4a2735ecd627e1f191.png"
+                src="../img/e288be710ef58e4a2735ecd627e1f191.png"
                 alt="Card image cap"
               />
             </div>
@@ -24,7 +24,7 @@
             <div class="img-fomulario">
               <img
                 class="img-logo"
-                src="./img/selfish-logo-6A0845C041-seeklogo.com.png"
+                src="../img/selfish-logo-6A0845C041-seeklogo.com.png"
                 alt="Card image cap"
               />
             </div>

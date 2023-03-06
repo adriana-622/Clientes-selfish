@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>proyecto</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/registrodepago.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/registrodepago.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -17,7 +17,7 @@
         <div class="col-12 col-md-3">
           <div class="logo">
             <img
-              src="./img/selfish-logo-6A0845C041-seeklogo.com.png"
+              src="../img/selfish-logo-6A0845C041-seeklogo.com.png"
               alt="Logo"
               width="90px"
             />
@@ -92,7 +92,7 @@
           <div class="con">
             <div class="cuenta">
               <div class="avatar">
-                <img class="imagen" src="./img/images.jpg" alt="Logo" />
+                <img class="imagen" src="../img/images.jpg" alt="Logo" />
               </div>
               <div class="datospersonales">
                 <h4>Nombre Apellido</h4>
