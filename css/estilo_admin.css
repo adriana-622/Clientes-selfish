@@ -101,9 +101,9 @@
     width: 150px;
 }
 .contenedor-notificaciones{
-    background: red;
     text-align: center;
     width: 80%;
+    border: 1px solid gray;
 }
 .contenido span .titulo{
     text-decoration: none;
