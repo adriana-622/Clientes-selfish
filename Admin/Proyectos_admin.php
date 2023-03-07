@@ -22,7 +22,7 @@
             </div>
             <div class="d-grid gap-1 contenedor-botones" role="group" aria-label="Vertical button group">
                <a href="../Admin/Inicio_admin.php" class="btn btn-outline-dark"><i class="fa fa-home "></i>Inicio</a>
-               <a  class="btn btn-outline-dark"><i class="fa fa-bell "></i>Notificaciones</a>
+               <a href="../Admin/Notificaciones_admin.php" class="btn btn-outline-dark"><i class="fa fa-bell "></i>Notificaciones</a>
                <a  class="btn btn-outline-dark"><i class="fa fa-user " ></i>Clientes</a>
                <a href="../Admin/Proyectos_admin.php" class="btn btn-outline-dark"><i class="fa fa-list " ></i>Proyectos</a>
             </div>

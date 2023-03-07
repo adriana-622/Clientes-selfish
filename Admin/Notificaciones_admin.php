@@ -25,27 +25,26 @@
             </div>
          </div>
          <div class="col-12 col-md-10">
-            <div class="cont-title-paginas">
-               <h2>PROYECTOS</h2>
+          <div class="cont-title-paginas">
+               <h2>NOTIFICACIONES</h2>
             </div>
             <div class="cont-subtitle-pagina">
                <p>"La imaginación es el principio de la creación"</p>
-            </div>
-            <div class="list-tareas">
-               <h3>LISTA DE TAREAS</h3>
-            </div>
-            <div class="tabla-clickup">
-               <table class="table table-striped">
-                  <tr>
-                  <td id="index">HOMEWORK</td>
-                  <td id="letra">UPDATE</td>
-                  <td id="alicuota">DUE DATE</td>
-                  <td id="periodo">PRIORITY</td>
-                  <td id="estado">ASSIGNEE</td>
-                  </tr>
-                  </table>
-            </div>
-         </div>
+          </div>
+          <div class="contenedor-notificaciones">
+            <u style="text-decoration: none;">
+               <li style="list-style: none;">
+                <a href="#">
+                 <div class="icono"></div>
+                   <div class="contenido">
+                    <span style="text-decoration: none;" class="titulo">Título de la notificación</span>
+                    <span class="descripcion">Descripción de la notificación</span>
+                  </div>
+                 </a>
+               </li>
+            </u>
+          </div>
+       </div>
    </div>
 </div>
 </body>

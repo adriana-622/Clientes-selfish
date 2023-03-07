@@ -100,5 +100,11 @@
 .btn-modal-proyect{
     width: 150px;
 }
-/*Modifica el contenedor de archivo del modal*/
-
+.contenedor-notificaciones{
+    background: red;
+    text-align: center;
+    width: 80%;
+}
+.contenido span .titulo{
+    text-decoration: none;
+}
