@@ -9,10 +9,11 @@
     height: auto;
 }
 .container-logo-principal{
-    text-align: center;
+    padding-left: 15px;
 }
 /*Modifica los contenedores de los botones*/
 .contenedor-botones a{
+    width: 170px;
     border: none;
     text-align: left;
     text-transform: uppercase;
@@ -63,7 +64,7 @@
     letter-spacing: 1px;
     position: relative;
     top: 110px;
-    left: 120px;
+    left: 50px;
 }
 /*Modifica los botones de buscar y nuevo proyecto*/
 .btn-proyect{
@@ -82,7 +83,7 @@
 }
 .container-img-proyect{
     position: relative;
-    left: 120px;
+    left: 50px;
     top: 120px; 
 }
 /*Modifeica el area de texto*/
@@ -100,11 +101,34 @@
 .btn-modal-proyect{
     width: 150px;
 }
+
+/*NOTIFICACIONES-ADMIN*/
+/*Modifica el contenedor donde tiene el contenido que compone las notificaciones*/  
 .contenedor-notificaciones{
-    text-align: center;
+    position: relative;
+    top: 80px;
+    padding-left: 20px;
     width: 80%;
-    border: 1px solid gray;
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
 }
-.contenido span .titulo{
-    text-decoration: none;
+/*Mofica el contenedor de el icono*/
+.detalle-noti i{
+   padding-right: 20px;
 }
+/*Modifca el color del icono*/
+.fa-paper-plane{
+ color: #D4AF37;
+}
+/*Modifica el header de el modal*/
+.modal-noti-head{
+background-color: black;
+color: #D4AF37;
+}
+.modal-noti-head{
+    float: right;
+}
+

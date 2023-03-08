@@ -16,7 +16,7 @@
 <body>
    <div class="container contenedor-principal">
       <div class="row">
-         <div class="col-12 col-md-2" >
+         <div class="col-12 col-md-3" >
             <div class="container-logo-principal">
                <img src="../img/logo-selfish.jpg" class="logo-principal">
             </div>
@@ -27,7 +27,7 @@
                <a href="../Admin/Proyectos_admin.php" class="btn btn-outline-dark"><i class="fa fa-list " ></i>Proyectos</a>
             </div>
          </div>
-         <div class="col-12 col-md-8">
+         <div class="col-12 col-md-7">
             <div class="cont-title-paginas">
                <h2>PROYECTOS</h2>
             </div>
