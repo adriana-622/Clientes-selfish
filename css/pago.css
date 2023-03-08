@@ -1,0 +1,54 @@
+.col-md-8  {
+  width: 100%; 
+
+ 
+}
+
+.cabecera{
+width: 100%;
+background-color: black;
+padding: 30px;
+
+}
+.derecho{
+flex: 0 0 auto;
+width: 50%;
+border: 1px solid rgba(39,41,43,.1);
+}
+.izquierdo{
+  flex: 0 0 auto;
+  width: 50%;
+  border: 1px solid rgba(39,41,43,.1);
+  padding: 50px;
+  }
+.arriba{
+  width: 100%;
+  margin: 20px 0px 0px 0px;;
+  padding: 70px;
+  border: 1px solid rgba(39,41,43,.1);
+  }
+  .container{
+    padding: 50px;
+    
+    }
+
+    h2{
+   color:yellow;
+      
+      }
+  .sp{
+  border-radius: 8px;
+  margin: 30px 0px 0px 0px;
+  width: 100%;
+  border: 1px solid rgba(39,41,43,.1);
+  background-color: rgba(39,41,43,.1);
+}
+img{
+  width: 20%;
+  
+}
+.stripe {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

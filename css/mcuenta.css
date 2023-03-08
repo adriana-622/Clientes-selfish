@@ -3,7 +3,7 @@
 *-------------------------------------------------------*/
 #wrapperMenu {
     width: 50%;
-    margin: 20px 90px;
+    margin: 20px 80px;
     display: flex;
     justify-content: flex-start;
     align-content: center;
@@ -14,30 +14,29 @@
     gap: 12px;
     width: 100%;
 }
+#menu-dashboard a {
+    color: #000000;
+    text-decoration: none !important;
+}
 
 .wrappernav-dashboard {
     width: 100%;
     padding: 10px;
     margin: 0;
 }
-#menu-dashboard {
-  
-    overflow: hidden;
-}
-#menu-dashboard a {
-  color:#000000;
-}
+
 #menu-dashboard li>a:hover {
   color:#ffffff;
 }
 
 #menu-dashboard li {
-    border-radius:8;
+    border-radius: 6px;
     margin: 0;
     padding: 10px 0px;
 }
 #menu-dashboard li:hover {
 background-color: #000000;
+transition: color .3s,background-color .3s;
 
 }
   #submenu {
@@ -56,7 +55,9 @@ background-color: #000000;
       background: rgba(0,0,0,.5);
   }
   
-
+/*
+* Perfil
+*-------------------------------------------------------*/
  .logo{
    display: flex;
    justify-content: center;
@@ -206,4 +207,35 @@ padding: 10px 0px;
     margin: 0 auto;
     padding: 50px;
     }
+
+.dfacturacion {
+        padding: 40px;
+        width: 85%;
+    }
     
+@media only screen and (max-width: 767px){ 
+     
+.col-md-7 {
+    width: 100%;
+    padding: 70px;
+}
+.fechahoy {
+    padding: 10px 0px 0px 20px;
+}  
+.cuenta {
+    width: 100%; 
+}
+
+.fatn {
+padding: 30px 0px 0px 15px;
+}
+.btn {
+    padding: 20px 0px 0px 60px;
+}
+.dfacturacion {
+    padding: 40px 0px 40px 25px;
+    }
+
+}
+      
+   
