@@ -7,7 +7,7 @@
 .cabecera{
 width: 100%;
 background-color: black;
-padding: 30px;
+padding: 20px;
 
 }
 .derecho{
@@ -19,36 +19,164 @@ border: 1px solid rgba(39,41,43,.1);
   flex: 0 0 auto;
   width: 50%;
   border: 1px solid rgba(39,41,43,.1);
-  padding: 50px;
+  padding: 40px;
   }
 .arriba{
   width: 100%;
-  margin: 20px 0px 0px 0px;;
-  padding: 70px;
+  margin: 10px 0px 0px 0px;;
+  padding: 30px 40px 20px 40px;
   border: 1px solid rgba(39,41,43,.1);
   }
   .container{
-    padding: 50px;
+    padding: 10px;
     
     }
+    h1  {
+    
+      font-family: Poppins,sans-serif;
+      font-weight: light;
+      font-size:70px ;
+      letter-spacing: 1px;
+         }
+    h2  {
+    
+          font-family:Poppins,sans-serif;
+          font-weight: Regular;
+          font-size:32px ;
+          letter-spacing: 2px;
+             }
+      
+  
+   
+  .bienvenido h1{
+    
+      padding: 20px;  
+         }
+  
 
-    h2{
-   color:yellow;
+  .bienvenido h2{
+   color: 	#a18d57;
+   padding: 20px;
       
       }
+  .bienvenido p
+    {
+    
+      padding: 20px;  
+         }
   .sp{
   border-radius: 8px;
-  margin: 30px 0px 0px 0px;
+  margin: 20px 0px 0px 0px;
   width: 100%;
   border: 1px solid rgba(39,41,43,.1);
-  background-color: rgba(39,41,43,.1);
+  background-color: rgba(39,41,43,.1); 
+  padding: 0px 30px ;
 }
 img{
-  width: 20%;
+  width: 25%;
   
+}
+.tipod
+{
+  border-radius: 7px;
+  width: 100%;
+  padding: 18px;
+  border: 1px solid rgba(39,41,43,.1);
+
 }
 .stripe {
   width: 100%;
   display: flex;
   justify-content: center;
 }
+
+.formco{
+  width: 100%;
+  
+    padding: 30px;
+}
+.izq{
+  width: 100%;
+}
+.der{
+  position: absolute;
+  border-radius: 8px;
+  margin: 29px 0px 0px 0px;
+  width: 10%;
+  left: 1050px;
+}
+.ven{
+  flex: 0 0 auto;
+  width: 50%;
+  
+}
+.cvcta{
+flex: 0 0 auto;
+width: 50%;
+}
+.ap{
+  flex: 0 0 auto;
+  width: 100%;
+  }
+.nom{
+    flex: 0 0 auto;
+    width: 100%;
+    }
+
+.sprit
+{
+ padding: 0px 30px 0px 30px;
+  }
+  .pais{
+    flex: 0 0 auto;
+    width: 50%;
+    }
+  .pos{
+      flex: 0 0 auto;
+      width: 50%;
+      }
+
+.realtn{
+  margin: 10px 0px 0px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+    }
+    .btn>a {
+      background-image: linear-gradient(135deg,#000,#000 30%,#a18d57 60%,#f8e7aa);
+      background-size: 300% auto;
+      border: none;
+      border-radius: 7px;
+      color: #fff;
+      cursor: pointer;
+      display: block;
+      font-size: 15px;
+      height: 40px;
+      text-align: center;
+      text-decoration: none;
+      transition: color .4s,background-image .4s,background-position .4s;
+      width: 190px;
+      padding: 5px;
+  }
+  .btn >a:hover:not(:disabled) {
+      background-position: 100%;
+      color: #000;}
+
+      .btn{
+        border: none;
+        background: none;
+    }
+    @media only screen and (max-width: 767px){ 
+      .der{
+        left: 100px;
+      }
+      .izquierdo {
+       
+        width: 100%;
+      }
+      .derecho{
+       
+        width: 100%;
+      }
+    }
+  

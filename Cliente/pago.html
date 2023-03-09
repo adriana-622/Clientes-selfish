@@ -27,6 +27,7 @@
                 </div>
             </div>
             <div class="col-md-6 derecho">
+              <div class="sprit">
               <div class="col-md-6 sp">
                 <div class="stripe">
                   <img
@@ -35,12 +36,164 @@
                   />
                 </div>
               </div>
-              <div class="pagotn">
-                <button class="btn">
-                  <a href="#"
-                    >  Realizar Pago</a
-                  >
-                </button>
+            </div>
+              <div class="col-md-6 formco">
+                <form>
+                  <div class="form-group-correo">
+                    <label for="correo">Correo</label>
+                    <span>
+                      <input
+                        id="correo"
+                        name="correo"
+                        class="form-control"
+                        type="email"
+                        placeholder="Correo electrónico"
+                      />
+                    </span>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 nomb">
+                      <div class="form-group-nombre">
+                        <label for="correo"> Nombre
+                        </label>
+                        <span>
+                          <div class="nom">
+                          <input
+                            id="nomt"
+                            name="nombre"
+                            class="form-control"
+                            type="nombre"
+                            placeholder=" Nombres "
+                            />
+                           <span>
+                        </div>
+                      </div>
+                    </div>
+                      <div class="col-md-6 apelli">
+                        <div class="form-group-apellido">
+                          <label for="correo">Apellido</label>
+                          <span>
+                            <div class="ap">
+                            <input
+                              id="apt"
+                              name="apellido"
+                              class="form-control"
+                              type="apellido"
+                              placeholder=" Apellidos"
+                              />
+                             <span>
+                          </div>
+                        </div>  
+                </div>
+              </div>
+                  <div class="row">
+                    <div class="col-md-6 izq">
+                      <div class="form-group-tarjeta">
+                        <label for="correo">Información de tarjeta</label>
+                        <span>
+                          <div class="tarjenum">
+                          <input
+                            id="informaciont"
+                            name="tarjeta"
+                            class="form-control"
+                            type="tarjeta"
+                            placeholder="1228 9387 6942 2349"
+                            />
+                           <span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 der">
+                      <div class="form-group-tipo">
+                        <div class="tarjetipo">
+                         <a class="visa" href="#">
+                          <img src="https://js.stripe.com/v3/fingerprinted/img/visa-729c05c240c4bdb47b03ac81d9945bfe.svg" alt="visa" />
+                        </a>
+                        <a class="mastercard" href="#">
+                          <img src="https://js.stripe.com/v3/fingerprinted/img/mastercard-4d8844094130711885b5e41b28c9848f.svg" alt="mastercard" />
+                        </a>
+                        <a class="amex" href="#">
+                          <img src="https://js.stripe.com/v3/fingerprinted/img/amex-a49b82f46c5cd6a96a6e418a6ca1717c.svg" alt="amex" />
+                        </a>
+                    </div>
+                        </div>
+                    </div>
+                  </div>
+                    <div class="row">
+                      <div class="col-md-6 ven">
+                        <div class="form-group-vencimiento">
+                          <label for="correo"> Vencimiento
+                          </label>
+                          <span>
+                            <div class="venci">
+                            <input
+                              id="vencimientot"
+                              name="vencimiento"
+                              class="form-control"
+                              type="vencimiento"
+                              placeholder="       MM / YY  "
+                              />
+                             <span>
+                          </div>
+                        </div>
+                      </div>
+                        <div class="col-md-6 cvcta">
+                          <div class="form-group-cvc">
+                            <label for="correo">CVC</label>
+                            <span>
+                              <div class="cvc">
+                              <input
+                                id="cvct"
+                                name="cvctarje"
+                                class="form-control"
+                                type="cvctarje"
+                                placeholder=" CVC"
+                                />
+                               <span>
+                            </div>
+                          </div>  
+                  </div>
+                </div>
+                  <div class="row">
+                    <div class="col-md-6 pais">
+                      <div class="form-group-pais">
+                        <label for="oppais">País
+                        </label>
+                        <select class="form-control" id="country" required="">
+                          <option value="">México</option>
+                          <option>España</option>
+                          <option>Colombia</option>
+                        </select>
+                        </div>
+                      </div>
+                      <div class="col-md-6 pos">
+                        <div class="form-group-postal">
+                          <label for="correo">Codigo Postal</label>
+                          <span>
+                            <div class="copostral">
+                            <input
+                              id="cpostal"
+                              name="codpostal"
+                              class="form-control"
+                              type="cpostal"
+                              placeholder=" Codigo Postal"
+                              />
+                             <span>
+                          </div>
+                        </div>  
+                </div>
+                </div>
+
+                <div class="realtn">
+                  <button class="btn">
+                    <a href="#"
+                      >Realizar Pago</a
+                    >
+                  </button>
+                </div>
+                            
+                </form>
+              </div>
               </div>
             </div>
           </div>
