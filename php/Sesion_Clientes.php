@@ -1,25 +1,25 @@
 <?php
     require("../config/conexion.php");
-    $correo=$_POST['correo'];
+    $email=$_POST['email'];
     $password=$_POST['password'];
     //conectar a base de datos
     $conexion= Conexion();
     //consulta a la tabla clientes
-    $consulta="SELECT * FROM clientes WHERE Correo='$correo' and Password ='$password'";
+    $consulta="SELECT * FROM clientes WHERE Correo='$email' and Password ='$password'";
  
     $Result=mysqli_query($conexion, $consulta);
 
     $filas=mysqli_num_rows($Result);
 
         if ($filas>0) {
-             // inicio de sesion..
+             //inicio de sesion..
              session_start();
-            $_SESSION['correo']=$correo;
+            $_SESSION['correo']=$email;
             // redirecionara a pagina..
-            header("location:../index.html");
+            header("location:../Admin/inicio_admin.php");
         } else {
               // alerta de usuario ou contraseña no valido
-             echo '<script language="javascript">alert("Error de autentificacion");window.location.href="../iniciosesion.php"</script>';
+             echo '<script language="javascript">alert("Error de autentificacion");window.location.href="../index.php"</script>';
         }
 
     mysqli_free_result($Result);
