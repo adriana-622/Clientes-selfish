@@ -1,7 +1,7 @@
 /*INICIO-ADMIN*/
 /*Modifica el contenedor principal*/
 .contenedor-principal{
-    padding-top: 40px;
+    padding-top: 48px;
 }
 /*Modifica el logo principal*/
 .logo-principal{
@@ -130,5 +130,17 @@ color: #D4AF37;
 }
 .modal-noti-head{
     float: right;
+}
+/*Modifica el body del modal*/
+.modal-body.notificaciones{
+    padding: 0px ;
+}
+
+
+
+/*CLIENTE_ADMIN*/
+/*MOdifica el contenedor de el logo principal solo en la pagina cliente*/
+.section-menu-cliente { 
+    padding-top:48px;
 }
 

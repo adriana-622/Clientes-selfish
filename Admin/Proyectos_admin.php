@@ -16,18 +16,19 @@
 <body>
    <div class="container contenedor-principal">
       <div class="row">
-         <div class="col-12 col-md-3" >
+         <div class="col-12 col-md-2" >
             <div class="container-logo-principal">
-               <img src="../img/logo-selfish.jpg" class="logo-principal">
+               <img src="../img/Selfish-logo.svg" class="logo-principal">
             </div>
             <div class="d-grid gap-1 contenedor-botones" role="group" aria-label="Vertical button group">
                <a href="../Admin/Inicio_admin.php" class="btn btn-outline-dark"><i class="fa fa-home "></i>Inicio</a>
                <a href="../Admin/Notificaciones_admin.php" class="btn btn-outline-dark"><i class="fa fa-bell "></i>Notificaciones</a>
-               <a  class="btn btn-outline-dark"><i class="fa fa-user " ></i>Clientes</a>
+               <a href="../Admin/Cliente_admin.php" class="btn btn-outline-dark"><i class="fa fa-user " ></i>Clientes</a>
                <a href="../Admin/Proyectos_admin.php" class="btn btn-outline-dark"><i class="fa fa-list " ></i>Proyectos</a>
+               <a href="#" class="btn btn-outline-dark"><i class="fa fa-power-off "></i>Cerrar sesion</a>
             </div>
          </div>
-         <div class="col-12 col-md-7">
+         <div class="col-12 col-md-8">
             <div class="cont-title-paginas">
                <h2>PROYECTOS</h2>
             </div>
