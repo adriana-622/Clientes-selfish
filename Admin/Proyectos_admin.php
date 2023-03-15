@@ -59,8 +59,6 @@
             </div>
          </div>
          <!--MODAL-->
-         <!-- Button trigger modal -->
-         <!-- Modal -->
          <div class="modal fade" id="contenedor-modal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
@@ -69,14 +67,20 @@
                   <!--<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>-->
                </div>
                <div class="modal-body">
-                  <div class="row">
+                  <div class="row ">
                      <div class="col-md-6" style="background-color: aqua;">
-                        <div class="d-grid gap-1 cont-input">
-                           <input type="text" placeholder="Nombre del proyecto">
+                        <div class="pt-3 d-grid gap-1 cont-input justify-content-around">
+                           <div class="pt-3">
+                           <input class="cont-input" type="text" placeholder="Nombre del proyecto">
+                           </div>
+                           <div class="pt-2">
                            <textarea name="" id="" cols="30" rows="10" placeholder="Descripción general del proyecto"></textarea>
+                           </div>
+                           <div class="pt-2">
                            <input type="text" placeholder="Nombre del cliente">
+                           </div>
                         </div>
-                        <div class="input-group mb-3">
+                        <div class="pt-2 input-group mb-3">
                            <label class="input-group-text" for="inputGroupSelect01">Tipo</label>
                            <select class="form-select" id="inputGroupSelect01">
                              <option selected>Choose...</option>
@@ -86,7 +90,7 @@
                            </select>
                          </div>
                      </div>
-                     <div class="col-md-6 contenedor-img-proyect" style="background-color: chartreuse;">
+                     <div class="col-md-6 subir-imagen" >
                         <div class="mb-3 contenedor-file-modal">
                            <input class="form-control" type="file" id="formFile">
                          </div>

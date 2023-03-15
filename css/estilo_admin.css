@@ -101,6 +101,12 @@
 .btn-modal-proyect{
     width: 150px;
 }
+.subir-imagen.contenedor-file-modal.form-control{
+    height: 200px;
+    background-color: aqua;
+}
+
+
 
 /*NOTIFICACIONES-ADMIN*/
 /*Modifica el contenedor donde tiene el contenido que compone las notificaciones*/  
@@ -136,6 +142,9 @@ color: #D4AF37;
     padding: 0px ;
 }
 
+img.imagen-modificacion{
+    width: 100px;
+}
 
 
 /*CLIENTE_ADMIN*/

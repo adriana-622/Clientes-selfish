@@ -20,7 +20,7 @@
             <div class="container-logo-principal">
                <img src="../img/Selfish-logo.svg" class="logo-principal">
             </div>
-            <div class="d-grid gap-1 contenedor-botones" role="group" aria-label="Vertical button group">
+            <div class="d-grid gap-1 contenedor-botones " role="group" aria-label="Vertical button group">
                <a href="../Admin/Inicio_admin.php" class="btn btn-outline-dark " ><i class="fa fa-home "></i>Inicio</a>
                <a href="../Admin/Notificaciones_admin.php" class="btn btn-outline-dark active"><i class="fa fa-bell "></i>Notificaciones</a>
                <a href="../Admin/Cliente_admin.php" class="btn btn-outline-dark"><i class="fa fa-user " ></i>Clientes</a>
@@ -58,14 +58,14 @@
              </div>
                 <div class="modal-body notificaciones">
                  <div class="row">
-                  <div class="col-8 col-sm-7">
-                     <div class="title-modificacion">
+                  <div class="p-4 col-8 col-sm-7" >
+                     <div class="fw-bold title-modificacion pb-2"> <!--Parte donde muetra el cambio que desea realizar el cliente-->
                         <p>Modificación "en le tipo de fuente"</p>
                      </div>
-                     <div class="">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextareaDisabled" disabled></textarea>
+                     <div class="pb-2">
+                        <textarea class="form-control rounded-0" placeholder="Leave a comment here" id="" style="height:100px;"></textarea>
                      </div>
-                     <div>
+                     <div class="pb-2">
                      <audio controls>
                         <source src="mi-archivo-de-audio.ogg" type="audio/ogg">
                         <source src="mi-archivo-de-audio.mp3" type="audio/mpeg">
@@ -75,15 +75,15 @@
                            </object>
                      </audio>
                      </div>
-                     <div class="">
-                       <img src="..." class="img-thumbnail" alt="...">
+                     <div class=""><!--Imagen de la modificación-->
+                       <img class="imagen-modificacion" src="../img/images.jpg"  alt="...">
                      </div>
                   </div>
-                  <div class="col-4 col-sm-5" style="text-align: center;">
-                    <div>
+                  <div class=" p-4 col-4 col-sm-5 border-start border-1 border-dark" style="text-align: center;"><!--Parte donde en la que se genera el costo de la modificación-->
+                    <div class="pb-2 fw-bold">
                      <p>Costo por modificación del proyecto</p>
                     </div>
-                    <div>
+                    <div class="pb-2">
                      <p>Estimado cliente la modificación que desea realizar tiene un monto de:</p>
                     </div>
                      <div class="form-check">
@@ -91,18 +91,20 @@
                         <label class="form-check-label" for="flexRadioDefault1">
                            Incluido
                         </label>
-                        </div>
-                        <div class="form-check">
+                     </div>
+                     <div class="pb-3 form-check">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
                         <label class="form-check-label" for="flexRadioDefault2">
                            Costo extra
                         </label>
                      </div>
-                     <div class="input-group mb-3">
+                     <div class="col-sm-10 input-group ">
                      <span class="input-group-text">$</span>
                      <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)">
-                     <span class="input-group-text">.00</span>
-                  </div>
+                     </div>
+                     <div class="pt-5 ">
+                        <button class="btn btn-dark btn-lg">Enviar</button>
+                     </div>
                   </div>
                   </div>
                  </div>
